@@ -10,8 +10,9 @@ public class MyProgram {
 	public void CurrentDate() throws ParseException {
 	
 	//System Date	
-		SimpleDateFormat sydtformat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		SimpleDateFormat sydtformat = new SimpleDateFormat("dd/MM/yyyy");
 		Date SystemDate = new Date();
+		System.out.println(SystemDate);
 		String sysdate = sydtformat.format(SystemDate);
 		System.out.println(sysdate);
 	
